@@ -27,7 +27,7 @@ public class UserTest {
     @Test
     public void testSetUserName() {
         User user = new User("Anna", "password");
-        user.setUserName("Lara");
+        user.setUserName("Klara");
         String expected = "Klara";
         String actual = user.getUserName();
 
